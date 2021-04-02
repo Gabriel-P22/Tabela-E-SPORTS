@@ -1,0 +1,91 @@
+/*Modelo de fonte*/
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+/*Remoção de itens basicos da navegação por padrão*/
+
+* {
+    padding: 0;
+    text-align: center;
+ }
+
+/*Titulo do Projeto*/
+
+h1{ 
+    text-align: center;
+    font-family: 'New Tegomin', serif;
+    font-size: 50px;
+    color: white;
+
+}
+
+/*Edição direto no corpo da pagina*/
+
+body{
+    background: black;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*Tabela da pagina*/
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th, tr, td {
+    border: solid 2px white;
+    color: white;
+    padding: 2px;
+}
+
+button{
+    border-radius: 4px;
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    background-color: grey;
+  }
+
+/*Rodapé da pagina com os ícones*/
+footer{
+    background: red;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-family: 'New Tegomin', serif;
+    color: white;
+    right: 0;
+    height: 80px; 
+    border-radius: 4px;
+  
+}
+
+footer h2{
+    top: 0;
+    left: 0;
+    font-size: 15px;
+}
+
+.github {
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.linkedin{
+    border: 1px solid white;
+    right: 0;
+    border-radius: 50px;
+    width: 25px;
+}
+
+
+
